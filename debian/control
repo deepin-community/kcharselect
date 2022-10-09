@@ -1,0 +1,33 @@
+Source: kcharselect
+Section: utils
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               libkf5bookmarks-dev (>= 5.83.0~),
+               libkf5crash-dev (>= 5.83.0~),
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5widgetsaddons-dev (>= 5.83.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.5.1
+Homepage: https://apps.kde.org/en/kcharselect
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kcharselect
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kcharselect.git
+Rules-Requires-Root: no
+
+Package: kcharselect
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: special character utility
+ KCharSelect is a utility for finding special characters which are not
+ available on the keyboard.  It can search for characters by Unicode number,
+ display characters in any font, and copy characters to the clipboard so they
+ can be pasted into documents.
+ .
+ This package is part of the KDE utilities module.

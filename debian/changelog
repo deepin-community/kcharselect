@@ -1,0 +1,372 @@
+kcharselect (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 15:53:43 +0900
+
+kcharselect (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 27 Apr 2021 11:12:55 +0900
+
+kcharselect (4:20.12.0-1) unstable; urgency=medium
+
+  * New upstream release (20.12.0).
+  * Update build dependencies according to upstream build system:
+    - Qt >= 5.12
+    - KF5 >= 5.56
+  * Refresh copyright information.
+  * Bump Standards-Version to 4.5.1, no changes required.
+  * Lintian tag renamed binary-without-manpage => no-manual-page for override.
+  * Update project homepage.
+  * Remove Sune Vuorela, Modestas Vainius, George Kiagiadakis, Eshat Cakar,
+    Maximiliano Curia from the uploaders, thanks for your passed work on the
+    package!
+  * Add myself to the uploaders.
+  * Refresh upstream metadata:
+    - normalize Bug-Database and Bug-Submit
+    - drop Contact field already present in machine readable copyright
+    - move VCS URLs to invent.kde.org
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 15 Dec 2020 23:38:52 +0100
+
+kcharselect (4:20.04.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Aurélien COUDERC ]
+  * Switch watch file to new KDE release service URL.
+  * Borrow minimal upstream signing key from K3b.
+  * New upstream release (20.04.3). (Closes: #964644)
+  * Refresh copyright information.
+  * Switch from dhmk to dh sequencer with kf5 add-on.
+  * Switch from dh compat file to debhelper-compat build dependency, bump
+    compatibility level to 13.
+  * Build with hardening=+all build hardining flag.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Refresh upstream metdata:
+    - Remove deprecated Name field.
+    - Add Bug-Database and Bug-Submit.
+    - Point Repository* fields to the new KDE Invent GitLab platform.
+  * Refresh lintian override.
+  * Use KDE Applications website as homepage.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 11 Jul 2020 15:49:00 +0200
+
+kcharselect (4:19.08.1-1) unstable; urgency=medium
+
+  * Add a salsa-ci script
+  * New upstream release (19.08.1).
+  * Bump Standards-Version to 4.4.0.
+  * Bump debhelper build-dep and compat to 12.
+  * Update build-deps and deps with the info from cmake
+  * Drop kde-l10n breaks/replaces, fixed versions already in stable
+  * Build with hardening bindnow
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 Sep 2019 17:11:23 -0700
+
+kcharselect (4:18.04.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.04.1).
+  * Bump debhelper build-dep and compat to 11.
+  * Update Vcs links to salsa.
+  * Bump Standards-Version to 4.1.4 (No changes needed).
+  * make copyright file machine-readable.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 23 May 2018 01:09:46 +0200
+
+kcharselect (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+  [ Maximiliano Curia ]
+  * Update uploaders list as requested by MIA team (Closes: #879318)
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
+  * Bump Standards-Version to 4.1.1, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Remove duplicated Section from the only binary.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 26 Nov 2017 14:55:37 +0100
+
+kcharselect (4:17.08.1-1) experimental; urgency=medium
+
+  * New upstream release (17.08.1)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 15:35:57 +0200
+
+kcharselect (4:17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 13:58:56 +0000
+
+kcharselect (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:34:16 +0000
+
+kcharselect (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:19:47 +0000
+
+kcharselect (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:21:01 +0000
+
+kcharselect (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:14:32 +0000
+
+kcharselect (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:03:31 +0000
+
+kcharselect (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:47:33 +0000
+
+kcharselect (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:57:30 +0000
+
+kcharselect (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:16:52 +0000
+
+kcharselect (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:25:39 +0000
+
+kcharselect (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:52:42 +0000
+
+kcharselect (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:39:17 +0000
+
+kcharselect (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:06:55 +0000
+
+kcharselect (4:16.08.0-1) unstable; urgency=medium
+
+  * New upstream release (16.08.0)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:16:29 +0200
+
+kcharselect (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:48:15 +0000
+
+kcharselect (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:38:48 +0000
+
+kcharselect (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 15 Jun 2016 14:45:57 +0000
+
+kcharselect (4:16.04.1-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 10:21:55 +0200
+
+kcharselect (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:31 +0100
+
+kcharselect (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 18:41:59 +0200
+
+kcharselect (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:10:54 +0100
+
+kcharselect (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:37:36 +0100
+
+kcharselect (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:41:58 +0200
+
+kcharselect (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:54:08 -0700
+
+kcharselect (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 11:40:09 +0100
+
+kcharselect (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:46:33 -0800
+
+kcharselect (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:14:10 +0100
+
+kcharselect (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate.
+  * Fix watch urls for new release location.
+  * Update Vcs urls for the new repository location.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update the maintainer.
+  * PPA build
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 21:29:54 +0100
+
+kcharselect (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 18:16:18 +0200
+
+kcharselect (4:4.12.2-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:23:59 +0200
+
+kcharselect (4:4.12.2-1) experimental; urgency=medium
+
+  * Add Homepage and Vcs fields.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:38 +0100
+
+kcharselect (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 00:27:24 +0100
+
+kcharselect (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 11:59:13 +0200
+
+kcharselect (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 16:37:40 +0200
+
+kcharselect (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add watch file.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 19:45:59 +0200
+
+kcharselect (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update uploaders.
+  * Bump build-deps.
+  * Update copyright file slightly.
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 17:16:54 +0000
+
+kcharselect (4:4.8.4-2) unstable; urgency=low
+
+  * Package disappeared in the archive due to missing epoch. Readd and upload
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 20 Jun 2012 10:29:32 +0200
+
+kcharselect (4.8.4-1) unstable; urgency=low
+
+  * Initial release split from kdeutils.
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 23:34:48 +0200
