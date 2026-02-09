@@ -1,23 +1,25 @@
-# Translation of kcharselect.po to Euskara/Basque (eu).
-# Copyright (C) 2003-2014, Free Software Foundation.
+# Translation for kcharselect.po to Euskara/Basque (eu).
+# Copyright (C) 2003-2024 This file is copyright:
+# This file is distributed under the same license as the kcharselect package.
+# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
-#
+# Translators:
 # Marcos  <marcos@euskalgnu.org>, 2003, 2005.
-# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2004, 2008, 2009, 2014, 2017.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2004, 2008, 2009, 2014, 2017, 2024.
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcharselect\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-09 00:20+0000\n"
-"PO-Revision-Date: 2017-06-21 21:58+0200\n"
-"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
-"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2024-12-09 00:44+0000\n"
+"PO-Revision-Date: 2024-04-27 21:03+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 24.02.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, kde-format
@@ -32,47 +34,52 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@euskalnet.net,marcos@euskalgnu.org,hizpol@ej-gv.es"
 
-#: kcharselectdia.cc:129 kcharselectdia.cc:139
+#: kcharselectdia.cc:126 kcharselectdia.cc:136
 #, kde-format
 msgid "&To Clipboard"
 msgstr "&Arbelera"
 
-#: kcharselectdia.cc:145
+#: kcharselectdia.cc:142
 #, kde-format
 msgid "To Clipboard &UTF-8"
 msgstr "Arbelera &UTF-8"
 
-#: kcharselectdia.cc:148
+#: kcharselectdia.cc:145
 #, kde-format
 msgid "To Clipboard &HTML"
 msgstr "Arbelera &HTML"
 
-#: kcharselectdia.cc:152
+#: kcharselectdia.cc:149
 #, kde-format
 msgid "&From Clipboard"
 msgstr "Arbele&tik"
 
-#: kcharselectdia.cc:157
+#: kcharselectdia.cc:154
 #, kde-format
 msgid "From Clipboard UTF-8"
 msgstr "Arbeletik UTF-8"
 
-#: kcharselectdia.cc:160
+#: kcharselectdia.cc:157
 #, kde-format
 msgid "From Clipboard HTML"
 msgstr "Arbeletik HTML"
 
-#: kcharselectdia.cc:163
+#: kcharselectdia.cc:160
 #, kde-format
 msgid "&Flip Text"
 msgstr "&Irauli testua"
 
-#: kcharselectdia.cc:166
+#: kcharselectdia.cc:163
 #, kde-format
 msgid "&Reverse Direction"
 msgstr "Aurkako &norantza"
 
-#: kcharselectdia.cc:187
+#: kcharselectdia.cc:179
+#, kde-format
+msgid "&Window Color Scheme"
+msgstr "&Leihoaren kolore-antolaera"
+
+#: kcharselectdia.cc:193
 #, kde-format
 msgid "Bookmarks"
 msgstr "Laster-markak"
@@ -83,8 +90,14 @@ msgstr "Laster-markak"
 msgid "&Edit"
 msgstr "&Editatu"
 
+#. i18n: ectx: Menu (settings)
+#: kcharselectui.rc:14
+#, kde-format
+msgid "&Settings"
+msgstr "E&zarpenak"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kcharselectui.rc:17
+#: kcharselectui.rc:20
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Tresna-barra nagusia"
@@ -94,47 +107,47 @@ msgstr "Tresna-barra nagusia"
 msgid "KCharSelect"
 msgstr "KCharSelect"
 
-#: main.cc:46
+#: main.cc:47
 #, kde-format
 msgid "KDE character selection utility"
 msgstr "Karaktereak hautatzeko KDEren utilitatea"
 
-#: main.cc:47
+#: main.cc:50
 #, kde-format
 msgid "A wrapper around the KCharSelect widget."
 msgstr "Estalki bat KCharSelect trepetaren inguruan."
 
-#: main.cc:49
+#: main.cc:53
 #, kde-format
 msgid "Christoph Feck"
 msgstr "Christoph Feck"
 
-#: main.cc:49
+#: main.cc:53
 #, kde-format
 msgid "KF5 port and current maintainer"
 msgstr "KF5 eratorpena eta egungo arduraduna"
 
-#: main.cc:50 main.cc:53
+#: main.cc:54 main.cc:57
 #, kde-format
 msgid "Daniel Laidig"
 msgstr "Daniel Laidig"
 
-#: main.cc:50
+#: main.cc:54
 #, kde-format
 msgid "Author and previous maintainer"
 msgstr "Egilea eta aurreko arduraduna"
 
-#: main.cc:51
+#: main.cc:55
 #, kde-format
 msgid "Reginald Stadlbauer"
 msgstr "Reginald Stadlbauer"
 
-#: main.cc:51
+#: main.cc:55
 #, kde-format
 msgid "Author"
 msgstr "Egilea"
 
-#: main.cc:53
+#: main.cc:58
 #, kde-format
 msgid ""
 "New GUI, Unicode information, incremental search, and general improvements"
@@ -142,57 +155,57 @@ msgstr ""
 "GUI berria, Unicode informazioa, bilaketa inkrementala, eta hobekuntza "
 "orokorrak"
 
-#: main.cc:55
+#: main.cc:61
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cc:55
+#: main.cc:61
 #, kde-format
 msgid "Porting help"
 msgstr "Eratopenean laguntza"
 
-#: main.cc:56
+#: main.cc:62
 #, kde-format
 msgid "Constantin Berzan"
 msgstr "Constantin Berzan"
 
-#: main.cc:56
+#: main.cc:62
 #, kde-format
 msgid "Previous maintainer"
 msgstr "Arduradun ohia"
 
-#: main.cc:57
+#: main.cc:63
 #, kde-format
 msgid "Nadeem Hasan"
 msgstr "Nadeem Hasan"
 
-#: main.cc:57 main.cc:59
+#: main.cc:63 main.cc:64
 #, kde-format
 msgid "GUI cleanup and fixes"
 msgstr "GUI garbitzea eta konpontzea"
 
-#: main.cc:59
+#: main.cc:64
 #, kde-format
 msgid "Ryan Cumming"
 msgstr "Ryan Cumming"
 
-#: main.cc:61
+#: main.cc:65
 #, kde-format
 msgid "Benjamin C. Meyer"
 msgstr "Benjamin C. Meyer"
 
-#: main.cc:61
+#: main.cc:65
 #, kde-format
 msgid "XMLUI conversion"
 msgstr "XMLUI bihurketa"
 
-#: main.cc:63
+#: main.cc:66
 #, kde-format
 msgid "Bryce Nesbitt"
 msgstr "Bryce Nesbitt"
 
-#: main.cc:63
+#: main.cc:66
 #, kde-format
 msgid "RTL support"
 msgstr "RTLrako euskarria"

@@ -1,15 +1,17 @@
-# Esperantaj mesaghoj por kcharselect
+# translation of kcharselect.pot to Esperanto
+# Esperantaj mesaĝoj por kcharselect
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Wolfram Diestel <wolfram@steloj.de>, 1999.
+# Heiko Evermann <heiko@evermann.de>, 2002.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: $Id: kcharselect.po,v 1.1 1999/12/09 18:13:08 wolfram "
-"Exp $\n"
+"Project-Id-Version: kcharselect\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-09 00:20+0000\n"
-"PO-Revision-Date: 2002-09-05 22:24+0200\n"
-"Last-Translator: Heiko Evermann <heiko@evermann.de>\n"
+"POT-Creation-Date: 2024-12-09 00:44+0000\n"
+"PO-Revision-Date: 2024-04-24 19:18+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -28,51 +30,55 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wolfram@steloj.de,Steffen.Pietsch@BerlinOnline.de"
 
-#: kcharselectdia.cc:129 kcharselectdia.cc:139
+#: kcharselectdia.cc:126 kcharselectdia.cc:136
 #, kde-format
 msgid "&To Clipboard"
 msgstr "En&poŝigu"
 
-#: kcharselectdia.cc:145
+#: kcharselectdia.cc:142
 #, kde-format
 msgid "To Clipboard &UTF-8"
 msgstr "Enpoŝigu &UTF-8"
 
-#: kcharselectdia.cc:148
+#: kcharselectdia.cc:145
 #, kde-format
 msgid "To Clipboard &HTML"
 msgstr "Enpoŝigu &HTML"
 
-#: kcharselectdia.cc:152
-#, fuzzy, kde-format
+#: kcharselectdia.cc:149
+#, kde-format
 msgid "&From Clipboard"
-msgstr "Elpoŝigu"
+msgstr "&El Tondujo"
 
-#: kcharselectdia.cc:157
+#: kcharselectdia.cc:154
 #, kde-format
 msgid "From Clipboard UTF-8"
-msgstr "Elpoŝigu UTF-8"
+msgstr "El Tondujo UTF-8"
 
-#: kcharselectdia.cc:160
+#: kcharselectdia.cc:157
 #, kde-format
 msgid "From Clipboard HTML"
 msgstr "Elpoŝigu HTML"
 
-#: kcharselectdia.cc:163
-#, fuzzy, kde-format
-#| msgid "&Flip"
+#: kcharselectdia.cc:160
+#, kde-format
 msgid "&Flip Text"
-msgstr "&Ŝanĝu flankon"
+msgstr "R&enversi Tekston"
 
-#: kcharselectdia.cc:166
+#: kcharselectdia.cc:163
 #, kde-format
 msgid "&Reverse Direction"
-msgstr ""
+msgstr "&Renversa Direkto"
 
-#: kcharselectdia.cc:187
+#: kcharselectdia.cc:179
+#, kde-format
+msgid "&Window Color Scheme"
+msgstr "&Fenestra Kolorskemo"
+
+#: kcharselectdia.cc:193
 #, kde-format
 msgid "Bookmarks"
-msgstr ""
+msgstr "Legosignoj"
 
 #. i18n: ectx: Menu (edit)
 #: kcharselectui.rc:4
@@ -80,8 +86,14 @@ msgstr ""
 msgid "&Edit"
 msgstr "&Redakti"
 
+#. i18n: ectx: Menu (settings)
+#: kcharselectui.rc:14
+#, kde-format
+msgid "&Settings"
+msgstr "&Agordoj"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kcharselectui.rc:17
+#: kcharselectui.rc:20
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Ĉefa ilobreto"
@@ -91,108 +103,103 @@ msgstr "Ĉefa ilobreto"
 msgid "KCharSelect"
 msgstr "Signoelektilo"
 
-#: main.cc:46
+#: main.cc:47
 #, kde-format
 msgid "KDE character selection utility"
 msgstr "KDE-Signoelektilo"
 
-#: main.cc:47
+#: main.cc:50
 #, kde-format
 msgid "A wrapper around the KCharSelect widget."
-msgstr ""
+msgstr "Envolvaĵo ĉirkaŭ la KCharSelect-fenestraĵo."
 
-#: main.cc:49
+#: main.cc:53
 #, kde-format
 msgid "Christoph Feck"
-msgstr ""
+msgstr "Christoph Feck"
 
-#: main.cc:49
-#, fuzzy, kde-format
-#| msgid "Author and maintainer"
+#: main.cc:53
+#, kde-format
 msgid "KF5 port and current maintainer"
-msgstr "Aŭtoro kaj prizorganto"
+msgstr "KF5-portado kaj aktuala prizorganto"
 
-#: main.cc:50 main.cc:53
+#: main.cc:54 main.cc:57
 #, kde-format
 msgid "Daniel Laidig"
 msgstr "Daniel Laidig"
 
-#: main.cc:50
-#, fuzzy, kde-format
-#| msgid "Author and maintainer"
+#: main.cc:54
+#, kde-format
 msgid "Author and previous maintainer"
-msgstr "Aŭtoro kaj prizorganto"
+msgstr "Aŭtoro kaj antaŭa prizorganto"
 
-#: main.cc:51
+#: main.cc:55
 #, kde-format
 msgid "Reginald Stadlbauer"
 msgstr "Reginald Stadlbauer"
 
-#: main.cc:51
+#: main.cc:55
 #, kde-format
 msgid "Author"
 msgstr "Aŭtoro"
 
-#: main.cc:53
+#: main.cc:58
 #, kde-format
 msgid ""
 "New GUI, Unicode information, incremental search, and general improvements"
-msgstr ""
+msgstr "Nova GUI, Unikod-informo, dumtajpa serĉo kaj ĝeneralaj plibonigoj"
 
-#: main.cc:55
+#: main.cc:61
 #, kde-format
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
-#: main.cc:55
+#: main.cc:61
 #, kde-format
 msgid "Porting help"
-msgstr ""
+msgstr "Helpo pri portado"
 
-#: main.cc:56
+#: main.cc:62
 #, kde-format
 msgid "Constantin Berzan"
 msgstr "Constantin Berzan"
 
-#: main.cc:56
-#, fuzzy, kde-format
+#: main.cc:62
+#, kde-format
 msgid "Previous maintainer"
-msgstr "Nuna retpoŝta agordo"
+msgstr "Antaŭa prizorganto"
 
-#: main.cc:57
+#: main.cc:63
 #, kde-format
 msgid "Nadeem Hasan"
 msgstr "Nadeem Hasan"
 
-#: main.cc:57 main.cc:59
+#: main.cc:63 main.cc:64
 #, kde-format
 msgid "GUI cleanup and fixes"
 msgstr "purigis GUI kaj korektis erarojn"
 
-#: main.cc:59
+#: main.cc:64
 #, kde-format
 msgid "Ryan Cumming"
 msgstr "Ryan Cumming"
 
-#: main.cc:61
+#: main.cc:65
 #, kde-format
 msgid "Benjamin C. Meyer"
 msgstr "Benjamin C. Meyer"
 
-#: main.cc:61
+#: main.cc:65
 #, kde-format
 msgid "XMLUI conversion"
-msgstr ""
+msgstr "Konverto de XMLUI"
 
-#: main.cc:63
+#: main.cc:66
 #, kde-format
 msgid "Bryce Nesbitt"
 msgstr "Bryce Nesbitt"
 
-#: main.cc:63
+#: main.cc:66
 #, kde-format
 msgid "RTL support"
-msgstr ""
-
-#~ msgid "&Alignment"
-#~ msgstr "&Aranĝo"
+msgstr "RTL-subteno"
