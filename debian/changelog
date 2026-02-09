@@ -1,3 +1,118 @@
+kcharselect (4:25.04.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (25.04.0).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.7.2, no change required.
+  * Update project homepage.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 17 Apr 2025 18:59:05 +0200
+
+kcharselect (4:24.12.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Team upload
+
+ -- Salvo 'LtWorf' Tomaselli <ltworf@debian.org>  Fri, 07 Mar 2025 15:34:27 +0100
+
+kcharselect (4:24.12.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Team upload
+
+ -- Salvo 'LtWorf' Tomaselli <ltworf@debian.org>  Sat, 01 Mar 2025 22:31:43 +0100
+
+kcharselect (4:24.12.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Salvo 'LtWorf' Tomaselli <ltworf@debian.org>  Fri, 17 Jan 2025 21:59:53 +0100
+
+kcharselect (4:24.12.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (24.12.0).
+  * Update build-deps and deps with the info from cmake.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 21 Dec 2024 23:31:26 +0100
+
+kcharselect (4:24.08.2-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (24.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.7.0, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 25 Aug 2024 15:18:40 +0200
+
+kcharselect (4:24.05.2-1) experimental; urgency=medium
+
+  [ Debian Qt/KDE Maintainers ]
+  * New upstream release (24.05.2). 
+
+  [ Scarlett Moore ]
+  * Add myself to uploaders.
+  * Update dependencies according to cmake.
+  * Remove kf5 from rules. 
+  * Refresh copyright.
+
+ -- Scarlett Moore <sgmoore@debian.org>  Fri, 26 Jul 2024 00:02:21 -0700
+
+kcharselect (4:23.08.2-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Jesse Rhodes ]
+  * New upstream release (23.08.2).
+  * Update build-deps with info from cmake.
+
+ -- Jesse Rhodes <jesse@sney.ca>  Sun, 05 Nov 2023 17:09:28 -0500
+
+kcharselect (4:22.12.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.12.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 01 Mar 2023 11:57:47 +0100
+
+kcharselect (4:22.12.1-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.12.1).
+  * Bump Standards-Version to 4.6.2, no change required.
+  * Add Albert Astals Cid’s master key to upstream signing keys.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 06 Jan 2023 23:04:54 +0100
+
+kcharselect (4:22.12.0-2) unstable; urgency=medium
+
+  * Upload with a correctly released changelog.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Dec 2022 16:04:33 +0100
+
+kcharselect (4:22.12.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.6.1, no change required.
+  * New upstream release (22.11.90).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (22.12.0).
+  * Refresh lintian overrides.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Dec 2022 00:12:52 +0100
+
+kcharselect (4:21.12.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (21.12.3).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 06 Mar 2022 22:32:49 +0100
+
 kcharselect (4:21.08.0-1) unstable; urgency=medium
 
   [ Norbert Preining ]
